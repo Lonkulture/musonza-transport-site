@@ -1,0 +1,12 @@
+<?php
+
+return [
+    'name' => 'Musonza Transport & Consultancy Inc.',
+    'phone' => '+260973144975', 'email' => 'info@musonzatransport.com', 'office' => 'Lusaka / Chilanga, Zambia',
+    'services' => [
+        'transport' => ['title' => 'Transportation & logistics', 'short' => 'Move with confidence.', 'text' => 'End-to-end freight movement and cross-border transport coordination, including customs clearance facilitation, fleet turnaround management, and route and corridor optimisation.', 'image' => 'transport.jpg', 'points' => ['Cross-border transport coordination', 'Customs clearance facilitation', 'Fleet turnaround management', 'Route and corridor optimisation']],
+        'supply-chain' => ['title' => 'Supply chain management', 'short' => 'Keep your operation moving.', 'text' => 'Practical oversight from procurement and inventory flow to distribution planning, helping businesses reduce delays, control costs, and improve operational visibility.', 'image' => 'supply.jpg', 'points' => ['Procurement and inventory flow', 'Distribution planning', 'Process visibility', 'Cost and delay reduction']],
+        'real-estate' => ['title' => 'Real estate development', 'short' => 'Build long-term value.', 'text' => 'Identification, planning, and development of residential and commercial property projects, supported by operational rigour and disciplined risk management.', 'image' => 'property.jpg', 'points' => ['Project identification', 'Residential and commercial planning', 'Development coordination', 'Risk-aware project oversight']],
+        'investments' => ['title' => 'Strategic investments', 'short' => 'A considered approach to growth.', 'text' => 'Selective investment in ventures and assets aligned with the group’s strengths in logistics, property, and regional trade, with a long-term perspective.', 'image' => 'property.jpg', 'points' => ['Logistics and property opportunities', 'Regional trade ventures', 'Partnership discussions', 'Long-term asset development']],
+        'consultancy' => ['title' => 'Consultancy services', 'short' => 'Experience that works on the ground.', 'text' => 'Advisory support for logistics, fleet operations, and cross-border trade, covering process design, compliance, hazardous cargo handling, and operational turnaround.', 'image' => 'supply.jpg', 'points' => ['Operational process design', 'Compliance advisory', 'Hazardous cargo handling advisory', 'Operational turnaround']],
+    ]];
