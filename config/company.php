@@ -2,7 +2,7 @@
 
 return [
     'name' => 'Musonza Transport & Consultancy Inc.',
-    'phone' => '+260973144975', 'email' => 'info@musonzatransport.com', 'office' => 'Lusaka / Chilanga, Zambia',
+    'phone' => '0764177903', 'email' => 'Andrewmusonza55@gmail.com', 'office' => 'Lusaka / Chilanga, Zambia', 'map_url' => 'https://maps.app.goo.gl/pzvyvUgJsuWxxQdTA', 'whatsapp' => '260967943307',
     'services' => [
         'transport' => ['title' => 'Transportation & logistics', 'short' => 'Move with confidence.', 'text' => 'End-to-end freight movement and cross-border transport coordination, including customs clearance facilitation, fleet turnaround management, and route and corridor optimisation.', 'image' => 'transport.jpg', 'points' => ['Cross-border transport coordination', 'Customs clearance facilitation', 'Fleet turnaround management', 'Route and corridor optimisation']],
         'supply-chain' => ['title' => 'Supply chain management', 'short' => 'Keep your operation moving.', 'text' => 'Practical oversight from procurement and inventory flow to distribution planning, helping businesses reduce delays, control costs, and improve operational visibility.', 'image' => 'supply.jpg', 'points' => ['Procurement and inventory flow', 'Distribution planning', 'Process visibility', 'Cost and delay reduction']],
