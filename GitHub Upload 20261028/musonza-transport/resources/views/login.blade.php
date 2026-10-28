@@ -1,3 +1,0 @@
-@extends('layout')
-@section('title','Team sign-in — Musonza')
-@section('content')<section class="container auth-section"><div class="form-panel"><p class="eyebrow">TEAM ACCESS</p><h1>Welcome back.</h1><form method="post" action="/admin/login">@csrf<label>Email<input type="email" name="email" autocomplete="username" value="{{ old('email') }}" required></label><label>Password<input type="password" name="password" autocomplete="current-password" required></label><button class="button">Sign in <span>↗</span></button></form><p class="caption">Company staff only. For account recovery, contact your site administrator.</p></div></section>@endsection

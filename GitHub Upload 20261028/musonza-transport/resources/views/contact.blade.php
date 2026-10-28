@@ -1,6 +1,0 @@
-@extends('layout')
-@section('title','Contact — Musonza')
-@section('content')
-<section class="page-head container"><p class="eyebrow">LET’S TALK</p><h1>Every partnership starts<br><em>with a conversation.</em></h1><p class="lead">Tell us where you are today, and where you want to go next.</p></section>
-<section class="container detail-grid contact-grid"><div class="contact-details"><article><small>EMAIL</small><a href="mailto:{{ $company['email'] }}">{{ $company['email'] }}</a></article><article><small>PHONE</small><a href="tel:{{ preg_replace('/[^+0-9]/','',$company['phone']) }}">{{ $company['phone'] }}</a></article><article><small>REGISTERED OFFICE</small><p>{{ $company['office'] }}</p><span class="caption">Contact us for directions and to arrange a visit.</span></article></div><div class="scope-panel"><p class="eyebrow">HOW CAN WE HELP?</p><h2>The right next step.</h2><p>Send your scope for a tailored quotation, or request a conversation with the team.</p><a href="/request/quote" class="button">Request a quote <span>↗</span></a><a href="/request/consultation" class="button outline">Book a consultation <span>↗</span></a><a class="line-link" href="/Musonza-Company-Profile.pdf" download>Download company profile <span>↓</span></a></div></section>
-@endsection

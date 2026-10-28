@@ -1,0 +1,3 @@
+@extends('layout')
+@section('title','Request received — Musonza')
+@section('content')<section class="container confirmation"><p class="eyebrow">THANK YOU FOR GETTING IN TOUCH</p><div class="confirmation-symbol">✓</div><h1>{{ session('reference')?'Your request is with us.':'Let’s start a conversation.' }}</h1>@if(session('reference'))<p>Your reference: <strong>{{ session('reference') }}</strong></p><p>Our team will review the details and contact you directly. Consultation times remain subject to confirmation.</p>@else<p>Send an enquiry and our team will review your requirements.</p>@endif<a class="button" href="/">Return home <span>↗</span></a></section>@endsection

@@ -1,0 +1,1 @@
+<div class="container admin-nav"><a href="/admin">Enquiry workspace</a><a href="/admin/settings">Company settings</a><a href="/admin/password">Change password</a><form method="post" action="/admin/logout">@csrf<button class="text-link">Sign out ↗</button></form></div>
